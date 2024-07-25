@@ -1,0 +1,809 @@
+@font-face {
+  font-family: 'Pragmatica';
+  src: url("fonnts.com-Pragmatica_Ext_Medium.otf");
+}
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Pragmatica';
+}
+.main{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+.nav{
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 30px;
+}
+.logo{
+  color: black;
+  font-size: 20px;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+a{
+  text-decoration: none;
+}
+.link{
+  color: black;
+  font-size: 12px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all 0.5s ease-in-out;
+}
+.link:hover{
+  color: black;
+  background-color: orangered;
+}
+
+.home1{
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0px 30px;
+  gap: 40px;
+}
+.be{
+  font-size: 120px;
+  font-family: 'Pragmatica';
+  font-weight: bold;
+  margin-left: 5px;
+}
+.pip{
+  width: 50%;
+}
+.picsart{
+  width: 80px;
+  height: 80px;
+  margin-top: -30px;
+}
+.picsart:hover{
+  transform: scale(1.1)
+}
+.home2{
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0px 30px;
+  gap: 30px;
+}
+.awe{
+  font-size: 140px;
+  font-family: 'Pragmatica';
+  font-weight: bold;
+  color: #ff5500;
+}
+.awesome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.some{
+  font-size: 140px;
+  font-family: 'Pragmatica';
+  font-weight: bold;
+}
+
+.create{
+  width: 96%;
+  height: 10vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid black;
+}
+.create1{
+  font-family: 'pragmatica';
+  font-size: 20px;
+  margin-top: 37px;
+}
+.pip1{
+  font-size: 15px;
+  font-family: 'pragmatica';
+  justify-content: center;
+  align-items: left;
+  display: flex;
+  margin-left: 470px;
+  margin-top: -37px;
+}
+#pre{
+  height: 390px;
+  width: 1180px;
+  margin-top: 10px;
+}
+.black{
+  height: 550px;
+  width: 1180px;
+  background-color: black;
+}
+.think{
+  color: white;
+  font-family: 'pragmatica';
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  font-size: 40px;
+  margin-left: 60px;
+  letter-spacing: 4px;
+  margin-top: 20px;
+  
+}
+.good{
+  font-size: 40px;
+  color: orangered;
+  font-family: 'pragmatica';
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  letter-spacing: 4px;
+  margin-left: 230px;
+  margin-top: -60px;
+
+}
+.you{
+  color: white;
+  font-family: 'pragmatica';
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  letter-spacing: 4px;
+  font-size: 40px;
+  margin-top: 5px;
+  margin-left: 80px;
+ 
+}
+.aboutt{
+  font-family: 'pragmatica';
+  color: white;
+  font-size: 23px;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.uss{
+  font-family: 'pragmatica';
+  color: white;
+  font-size: 17px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: 270px;
+  margin-top: -50px;
+
+}
+.k{
+  font-family: 'pragmatica';
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 140px;
+  color: #ff5500;
+margin-left: 190px;
+}
+.k1{
+  font-family: 'pragmatica';
+  font-weight: bold;
+  font-size: 13px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 30px;
+  color: white;
+  margin-left: 380px;
+  margin-top: -43px;
+  letter-spacing: 1px ;
+}
+.do{
+height: 230px;
+border-bottom: 1px solid black;
+width: 1160px;
+
+}
+.what{
+  font-family: 'pragmatica';
+  font-size: 19px;
+  color: black;
+  letter-spacing: 1px;
+  text-align: center;
+  justify-content: left;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.design{
+  font-family: 'pragmatica';
+  font-size: 35px;
+  color: #ff5500;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-left: -50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: -30px;
+}
+.system{
+  font-family: 'pragmatica';
+  font-size: 35px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 640px;
+  margin-top: -47px;
+}
+.desi{
+  font-family: 'pragmatica';
+  font-size: 35px;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 330px;
+}
+.designer{
+  font-family: 'pragmatica';
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 200px;
+}
+.arro{
+  height: 10vh;
+  width: 1170px;
+  border-bottom: 1px solid black;
+  margin-top: -40px;
+}
+.web{
+  font-family: 'pragmatica';
+  font-size: 35px;
+  font-weight: bold;
+  opacity: 50%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 110px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  opacity: 50%;
+}
+.fa{
+  font-weight:1px;
+ font-size: 25px;
+ text-align: right;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ margin-left:1100px ;
+ margin-top: -70px;
+ color: orangered;
+ transform: rotate(45deg);
+ transition: all 0.3s ease-in-out;
+}
+.fa:hover{
+  transform: rotate(0deg);
+  scale: 1.1;
+}
+.picc{
+  height: 250;
+  width: 1170px;
+  margin-top: 30px;
+}
+.pic{
+  height: 410px;
+  width: 1170px;
+}
+.mobile{
+  height: 10vh;
+  width: 1170px;
+  margin-top: 35px;
+  border-bottom: 1px solid black;
+}
+#mobb{
+  font-family: 'pragmatica';
+  font-size: 35px;
+  font-weight: bold;
+  opacity: 50%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 1px;
+  margin-top: -25px;
+}
+.mobilee{
+  height: 9vh;
+  width: 1170px;
+  margin-bottom: -10px;
+  border-bottom: 1px solid black;
+}
+video{
+  width: 80%;
+  height: 80%;
+}
+#mob{
+  font-family: 'pragmatica';
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  display: flex;
+  opacity: 50%;
+}
+.monk{
+  height: 9vh;
+  width: 1170px;
+  margin-bottom: -10px;
+  border-bottom: 1px solid black;
+}
+#move{
+  font-family: 'pragmatica';
+  font-size: 31px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  opacity: 50%;
+}
+.moak{
+  height: 13vh;
+  width: 1170px;
+}
+#moving{
+  font-family: 'pragmatica';
+  font-size: 31px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  opacity: 50%;
+  margin-top: 20px;
+}
+.panther{
+  height: 220vh;
+  width: 1170px;
+  background-color: black;
+  margin-top: -20px;
+}
+#our{
+  font-family: 'pragmatica';
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: left;
+ margin-left: 50px;
+ padding-top: 40px;
+  display: flex;
+}
+.pin{
+  height: 500px;
+  width: 500px;
+  margin-top:20px ;
+  margin-left:45px;
+}
+.the{
+  font-family: 'pragmatica';
+  color: white;
+  font-size: 9cqw;
+  text-align: center;
+  align-items: center;
+  justify-content: left;
+ margin-left: 50px;
+ margin-top: -20px;
+  display: flex;
+}
+.grt{
+  font-family: 'pragmatica';
+  color: orangered;
+  font-size: 95px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ margin-left: 50px;
+ margin-top: -250px;
+  display: flex;
+}
+.voot{
+  font-family: 'pragmatica';
+  color: orangered;
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ margin-left: 100px ;
+ margin-top: -490px;
+  display: flex;
+}
+.concept{
+  font-family: 'pragmatica';
+  color:white;
+  font-size: bold;
+  font-size: 35px;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+ margin-left:410px;
+ margin-top: -15px;
+  display: flex;
+}
+.best{
+  font-family: 'pragmatica';
+  color:white;
+  font-size: bold;
+  font-size: 15px;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+ margin-left: 510px;
+ margin-top: -10px;
+  display: flex;
+}
+.feo{
+  font-family: 'pragmatica';
+  color:white;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: right;
+ margin-right:540px ;
+ padding-top: 45px;
+  display: flex;
+}
+.feo1{
+  font-family: 'pragmatica';
+  color:white;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: right;
+ margin-right:220px ;
+ margin-top: -20px;
+  display: flex;
+}
+.germ{
+  font-family: 'pragmatica';
+  color:white;
+  font-size: bold;
+  font-size: 35px;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+ margin-left:177px ;
+ margin-top: 1px;
+  display: flex;
+}
+.webd{
+  font-family: 'pragmatica';
+  color:white;
+  font-size: bold;
+  font-size: 35px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ margin-left:810px ;
+ margin-top: -44px;
+  display: flex;
+}
+.vand{
+  font-family: 'pragmatica';
+  color:orangered;
+  font-size: bold;
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+.app{
+  font-family: 'pragmatica';
+  color:white;
+  font-size: bold;
+  font-size: 35px;
+  text-align: left;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  margin-top: -20px;
+  margin-left: 50px;
+}
+.orig{
+  height: 90vh;
+  width: 530px;
+  align-items: center;
+  justify-content: right;
+  display: flex;
+  margin-left: 590px;
+  margin-top: -240px;
+}
+.savi{
+  font-family: 'pragmatica';
+  color:white;
+  font-size: bold;
+  font-size: 18px;
+  text-align: left;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  margin-left: 50px;
+  margin-top: -310px;
+}
+.feo2{
+  font-family: 'pragmatica';
+  color:white;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: left;
+ margin-left:55px ;
+ padding-top: 45px;
+  display: flex;
+}
+.feo3{
+  font-family: 'pragmatica';
+  color:white;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ margin-left:-480px ;
+ margin-top: -20px;
+  display: flex;
+}
+.feo4{
+  font-family: 'pragmatica';
+  color:white;
+  font-size: 33px;
+  text-align: center;
+  align-items: center;
+  justify-content: left;
+ margin-left:55px ;
+ padding-top: 5px;
+  display: flex;
+}
+.feo5{
+  font-family: 'pragmatica';
+  color:white;
+  font-size: 33px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ margin-left:-340px ;
+ margin-top: -45px;
+  display: flex;
+}
+.pog{
+  height: 380px;
+  width: 1170px;
+  background-color: #ff5500;
+}
+.deli{
+  font-family: 'pragmatica';
+  font-size: bold;
+  color:white;
+  font-size: 47px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: -350px;
+}
+.muh{
+  font-family: 'pragmatica';
+  color:white;
+  font-size: 23px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 49px;
+}
+.ceo{
+  font-family: 'pragmatica';
+  color:white;
+  font-size: 13px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: -13px;
+}
+.tog{
+  height: 60vh;
+  width: 1170px;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+.let{
+  font-family: 'pragmatica';
+  color:black;
+  font-size: 95px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  letter-spacing: 6px;
+  margin-top: 70px;
+}
+.orry{
+  font-family: 'pragmatica';
+  color:orangered;
+  font-size: 95px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: -120px;
+}
+.btn{
+  font-family: 'pragmatica';
+  background-color: #ff5500;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left:500px; 
+  margin-top: 40px;
+}
+.btn:hover{
+  transform: scale(1.1);
+}
+.aww{
+  height:43vh ;
+  width: 1170px;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+.awww{
+  font-family: 'pragmatica';
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  margin-left: 10px;
+}
+.latest{
+  font-family: 'pragmatica';
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  margin-left: 10px;
+}
+.gmail{
+  font-family: 'pragmatica';
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+.btn1{
+  font-family: 'pragmatica';
+  background-color: #ff5500;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  margin-left: 15px;
+  margin-top: -5px;
+  
+}
+.btn1:hover{
+  transform: scale(1.1);
+}
+.menuu{
+  font-family: 'pragmatica';
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left:10px ;
+  margin-top: -150px;
+}
+.soci{
+  font-family: 'pragmatica';
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: right;
+  display: flex;
+  margin-right:190px ;
+  margin-top: -49px;
+}
+.nagg{
+  font-family: 'pragmatica';
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: -200px;
+  margin-left: 20px;
+}
+.naggi{
+  font-family: 'pragmatica';
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  justify-content: right;
+  margin-top: -165px;
+  margin-left: 721px;
+}
+.kk{
+  font-family: 'pragmatica';
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  justify-content: left;
+  margin-left: -960px;
+  margin-top: 80px;
+}
+.kk1{
+  font-family: 'pragmatica';
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: -27px;
+  margin-left: 500px;
+}
+.kk2{
+  font-family: 'Pragmatica';
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  justify-content: right;
+  margin-left: 824px;margin-top: -27px;
+}
